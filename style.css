@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+img{
+    width: 100px;
+    /* border-radius: 50%;
+    justify-content: space-between; */
+}
+.hero{
+    background-image: url("./Images/Assam.jpg");
+    background-size: 100%;
+	background-position: center;
+	height: 340px;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-shadow: 0px 0px 2px black;
+}
+.heading,
+.Intro-1,
+.Intro-2 {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: .5px .5px 1px black;
+}
+.heading{
+    background: #1d3557;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #1d3557;
+    box-shadow: .5px .5px 1px #edf7F6;
+}
+.Intro-1{
+    background: violet;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 0px;
+}
+.Intro-2{
+    margin: 0px;
+    background: violet;
+    padding: 5px;
+}
+.visit-places{
+    background: #edf7F6;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.heading-2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.visit-images{
+    display: flex;
+    justify-content: space-around;
+}
+.visit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    
+}
+.visit:hover{
+    transform: scale(1.1);
+    border: 3px solid #edf7F6;
+    transition: .5s;
+}
+.visit img{
+    border-radius: 50%;
+    border: 3px solid black;
+}
+/* .visit img:hover{
+    transform: scale(1.1);
+    border: 3px solid #457b9d;
+    transition: .5s;
+} */
+/* .visit-image-1,
+.visit-image-2,
+.visit-image-3{
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: .5s;
+} */
+/* .visit-image-1,
+.visit-image-2,
+.visit-image-3:hover{
+    transform: scale(1.1);
+    border: 3px solid #457b9d;
+} */
+.visit > h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background: #ddebf8;
+    padding: 20px;
+    box-shadow: 0 0 5px;
+    border-bottom: 6px solid #1d3557;
+
+}
+.card img{
+    width: 150px;
+    border-radius: 2px;
+}
+.card-content{
+    max-width: 400px;
+    width: 400px;
+}
+
