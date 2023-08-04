@@ -55,7 +55,7 @@ img{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-
+    margin-top: 0px;
 }
 .heading-2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
