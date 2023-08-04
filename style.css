@@ -11,8 +11,9 @@ img{
 }
 .hero{
     background-image: url("./Images/Assam.jpg");
-    background-size: 100%;
+    background-size: 100% 340px;
 	background-position: center;
+    background-repeat: no-repeat;
 	height: 340px;
 	padding: 16px;
 	display: flex;
